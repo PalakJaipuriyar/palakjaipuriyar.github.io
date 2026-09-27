@@ -1,3 +1,21 @@
-remote_theme: hitchens-theme
 title: Palak Jaipuriyar
-description: Evolutionary biology, genomics
+description: Molecular phylogenetics & protein sequence analysis
+url: "https://palakjaipuriyar.github.io"
+baseurl: ""
+
+# Use Hitchens theme via remote_theme (works on GitHub Pages)
+remote_theme: patdryburgh/hitchens
+
+# Plugins (GitHub Pages supports jekyll-remote-theme by default)
+plugins:
+  - jekyll-remote-theme
+
+# Optional Hitchens settings
+show_excerpts: true
+excerpt_length: 0
+hide_credits: false
+hide_search: false
+
+# Pagination (used by Hitchens home layout)
+paginate: 20
+paginate_path: "/page/:num/"
