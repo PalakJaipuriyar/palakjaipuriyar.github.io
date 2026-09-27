@@ -1,5 +1,5 @@
 title: Palak Jaipuriyar
-description: Molecular phylogenetics & protein sequence analysis
+description: Evolution, genomics
 url: "https://palakjaipuriyar.github.io"
 baseurl: ""
 
@@ -14,7 +14,7 @@ plugins:
 show_excerpts: true
 excerpt_length: 0
 hide_credits: false
-hide_search: false
+hide_search: true
 
 # Pagination (used by Hitchens home layout)
 paginate: 20
