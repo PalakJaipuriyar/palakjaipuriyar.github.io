@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-![Profile picture](/assets/images/profile1.jpg){: style="max-width:200px; border-radius:8px; display:block; margin-bottom:1rem;" }
+![Profile picture](/assets/images/IMG_1424.jpeg){: style="max-width:200px; border-radius:8px; display:block; margin-bottom:1rem;" }
 
 ## About me
 
