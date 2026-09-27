@@ -3,6 +3,8 @@ layout: page
 title: Home
 ---
 
+![Profile picture](/assets/images/profile1.jpg){: style="max-width:200px; border-radius:8px; display:block; margin-bottom:1rem;" }
+
 ## About me
 
 I am a molecular biologist working on phylogenetics and protein sequence analysis.  
