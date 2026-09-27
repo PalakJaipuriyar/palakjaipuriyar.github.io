@@ -1,21 +1,25 @@
 ---
 layout: page
-title: Home
+title: Introduction
 ---
 
-![Profile picture](/assets/images/IMG_1424.jpeg){: style="max-width:200px; border-radius:8px; display:block; margin-bottom:1rem;" }
-
-## About me
-
-I am a molecular biologist working on phylogenetics and protein sequence analysis.  
-This site hosts my research portfolio, projects, and updates.
+<div class="hero">
+  <h1 class="hero-title">Palak Jaipuriyar</h1>
+  <p class="hero-subtitle">
+    Molecular phylogenetics • Protein sequence analysis • Plant biodiversity
+  </p>
+  <p class="hero-text">
+    I am a molecular biologist working on evolutionary biology and bioinformatics,
+    preparing for a research internship at Uppsala University.
+  </p>
+</div>
 
 ## Research interests
 
 - Molecular phylogenetics  
-- Protein family analysis  
+- Protein family and domain analysis  
 - Plant taxonomy and biodiversity  
-- Bioinformatics workflows
+- Bioinformatics workflows and scripting  
 
 ## Contact
 
