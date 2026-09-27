@@ -1,0 +1,11 @@
+/* Custom styles for Hitchens theme */
+
+/* Main page background */
+body {
+  background-color: #f9f9f9; /* light grey; change this color */
+}
+
+/* Optional: make content area background white */
+.wrapper {
+  background-color: #ffffff;
+}
