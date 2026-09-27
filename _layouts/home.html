@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {%- if site.data.menu -%}
+    <nav class="site-nav">
+      {%- for item in site.data.menu -%}
+        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+      {%- endfor -%}
+    </nav>
+  {%- endif -%}
+
+  {%- if page.description -%}
+    <p class="site-description">{{ page.description | escape }}</p>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.paginate -%}
+    {%- if paginator.posts.size > 0 -%}
+      <div class="posts">
+        {%- for post in paginator.posts -%}
+          <article class="post">
+            <header class="post-header">
+              <h2 class="post-title">
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h2>
+            </header>
+            <div class="post-content">
+              {{ post.excerpt }}
+            </div>
+          </article>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- else -%}
+    {{ content }}
+  {%- endif -%}
+</div>
