@@ -11,9 +11,9 @@ plugins:
   - jekyll-remote-theme
 
 # Optional Hitchens settings
-show_excerpts: false
+show_excerpts: true
 excerpt_length: 0
-hide_credits: true
+hide_credits: false
 hide_search: true
 
 # Pagination (used by Hitchens home layout)
